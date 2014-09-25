@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^ishall\.servebeer\.com\/tv\/([\w+])\/([\w+])\/([\w+])\/([\w+])\/$ [NC]
+#RewriteRule ^$ /tv/index.php?one=%1&one_s=%2&two=%3&two_s=%4 [L]
+
+RewriteRule ^watch/*?$ /tv/ [R,L]
+RewriteRule ^watch/([^/]+)/?$ index.php?one=$1&two= [L]
+RewriteRule ^watch/([^/]+)/([^/]+)/?$ index.php?one=$1&two=$2 [L]
