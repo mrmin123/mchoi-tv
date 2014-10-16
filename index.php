@@ -42,11 +42,11 @@
         echo "    <title>stay a while and listen</title>\n";
     }
 ?>
-    <link href="http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/includes/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,700" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/tv/index.css" type="text/css" media="screen" />
-    <script src="/includes/jquery.min.js"></script>
-    <script src="/tv/index.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
 <? if($set == 1) { ?>
