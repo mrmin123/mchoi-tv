@@ -1,6 +1,7 @@
 <?php
     $command = "python streamlist.py";
     $pid = popen($command, "r");
+    $temp = '';
     while( !feof( $pid ) ) {
         $temp .= fread($pid, 256);
         flush();

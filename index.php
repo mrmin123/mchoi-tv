@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/tv/index.css" type="text/css" media="screen" />
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="index.js"></script>
+    <script src="/tv/index.js"></script>
 </head>
 <body>
 <? if($set == 1) { ?>
