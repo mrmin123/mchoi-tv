@@ -22,13 +22,13 @@ $(document).ready(function() {
 
 function load() {
     if ($('#one').val() !== '' && $('#two').val() === '') {
-        window.location.href = 'http://ishall.servebeer.com/tv/watch/' + $('#one').val() + '/';
+        window.location.href = '/tv/watch/' + $('#one').val() + '/';
     }
     else if ($('#one').val() === '' && $('#two').val() !== '') {
-        window.location.href = 'http://ishall.servebeer.com/tv/watch/' + $('#two').val() + '/';
+        window.location.href = '/tv/watch/' + $('#two').val() + '/';
     }
     else if ($('#one').val() !== '' && $('#two').val() !== '') {
-        window.location.href = 'http://ishall.servebeer.com/tv/watch/' + $('#one').val() + '/' + $('#two').val() + '/';
+        window.location.href = '/tv/watch/' + $('#one').val() + '/' + $('#two').val() + '/';
     }
 }
 
